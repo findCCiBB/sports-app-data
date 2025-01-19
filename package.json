@@ -1,0 +1,12 @@
+{
+  "name": "sports-app-data",
+  "version": "1.0.0",
+  "description": "Sports App Data Management",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "update-timestamp": "node scripts/update-timestamp.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+} 
