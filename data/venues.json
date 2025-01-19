@@ -1,0 +1,22 @@
+{
+  "venues": [
+    {
+      "id": "1",
+      "name": "示例球场",
+      "district": "示例区",
+      "address": "示例地址",
+      "phone": "123-456-7890",
+      "businessHours": "09:00-22:00",
+      "isFree": false,
+      "price": "100元/小时",
+      "facilities": {
+        "hasWifi": true,
+        "hasToilet": true,
+        "hasParking": true,
+        "hasPowerBank": false,
+        "hasEquipment": true
+      },
+      "imageUrl": "https://example.com/image.jpg"
+    }
+  ]
+}
