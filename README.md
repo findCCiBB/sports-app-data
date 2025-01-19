@@ -1,14 +1,19 @@
-# 体育应用数据仓库
+# Sports App Data
 
-用于存储和管理体育应用的数据文件
+体育应用数据管理系统
 
-## 文件结构
+## 项目结构
 
-- `data/`: 存放JSON数据文件
-  - `venues.json`: 场地信息
-  - `sports_data.json`: 体育数据
-  - `news.json`: 新闻数据
-- `images/`: 存放图片资源
-  - `venues/`: 场地相关图片
-  - `sports/`: 体育数据相关图片
-  - `news/`: 新闻相关图片
+- `admin/`: 后台管理系统
+- `data/`: JSON 数据文件
+- `images/`: 图片资源
+- `scripts/`: 数据处理脚本
+
+## 数据更新
+
+数据每6小时自动更新一次，也可以通过后台管理系统手动更新。
+
+## 访问地址
+
+- 后台管理系统：https://findccib.github.io/sports-app-data/admin/
+- 数据 API：https://findccib.github.io/sports-app-data/data/ 
